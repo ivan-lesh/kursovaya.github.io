@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'h_regular';
+    src: url(../fonts/helvetica_regular.otf);
+}
+
+@font-face {
+    font-family: 'h_bold';
+    src: url(../fonts/helvetica_bold.otf);
+}
+
+@font-face {
+    font-family: 'h_light';
+    src: url(../fonts/helvetica_light.otf);
+}
+
+@font-face {
+    font-family: 'mogra';
+    src: url(../fonts/Mogra-Regular.ttf);
+}
+
+.text__btn-24 {
+    font-size: 24px;
+    font-family: 'h_light';
+}
+
+.text__h4-20 {
+    font-size: 20px;
+    font-family: 'h_regular';
+    text-transform: uppercase;
+}
+
+.text__p-24 {
+    font-size: 24px;
+    font-family: 'h_light';
+}
+
+.text__h1-32 {
+    font-size: 32px;
+    font-family: 'h_regular';
+}
+
+.text__h3-24 {
+    font-size: 24px;
+    font-family: 'h_regular';
+}
+
+.text__h2-32 {
+    font-size: 32px;
+    font-family: 'h_regular';
+}
+
+.text__u-24 {
+    font-size: 24px;
+    font-family: 'h_light';
+}
+
+.text-span-20 {
+    font-size: 20px;
+    font-family: 'h_light';
+}
+
+.text__p-15 {
+    font-size: 15px;
+    font-family: 'h_light';
+}
+
+.text__bold-16 {
+    font-size: 16px;
+    font-family: 'h_bold';
+}
+
+.text__a-span-16 {
+    font-size: 16px;
+    font-family: 'h_light';
+}
+
+.text__li-16 {
+    font-size: 16px;
+    font-family: 'h_light';
+}

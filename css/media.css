@@ -1,0 +1,801 @@
+@media screen and (max-width: 1919px) {
+    .hero__coach-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero__offer-content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .hero__offer-element:last-child {
+        grid-row-start: 2;
+    }
+}
+
+@media screen and (max-width: 1664px) {
+    .hero__filials .container {
+        padding: 0 0 70px 0;
+    }
+    .hero_filials-content {
+        width: fit-content;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hero__filials-info {
+        grid-row-start: 1;
+        padding-top: 70px;
+    }
+    .hero__filials-item {
+        max-width: 330px;
+        border: none;
+    }
+    .hero__filials-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 48px;
+    }
+    .y-map {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .hero__contants-element-right {
+        align-self: center;
+    }
+    .hero__contants-element {
+        margin-right: 20px;
+    }
+    .hero__contants-elements {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero__contants-elements-left {
+        margin-bottom: 40px;
+    }
+    .hero__contacts-content {
+        padding: 30px;
+    }
+    .hero__contacts-title,
+    .hero__contants-elements-left {
+        margin-bottom: 30px;
+    }
+    .hero_contacts-block {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+    .hero__schedule-date {
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+    .hero__schedule-date-items { 
+        justify-items: flex-start;
+        padding-top: 20px;
+        margin: 0;
+    }
+    header .container {
+        padding: 0;
+    }
+    .container .header__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1462px) {
+    .hero__title {
+        margin-bottom: 40px;
+    }
+    .hero__content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    swiper-container{
+       width: 100% !important;
+       height: 100% !important;
+       margin-bottom: 35px;
+    }
+
+    .hero__content p {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .hero__coaches-filters {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+
+@media screen and (max-width: 1340px) {
+    .hero__signup-input:first-child {
+        margin-right: 50px;
+    }
+    .hero__offer-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hero_filials-content {
+        width: 85%;
+    }
+    .hero__filials .y-map {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero__form .filter-adress,
+    .hero__form .filter-dir {
+        width: 100%;
+    }
+    .container {
+        padding: 90px;
+    }
+    .hero__partnership-welcome p,
+    .hero__partnership-list:last-child {
+        line-height: 35px;
+        margin-right: 20px !important;
+    }
+    .hero__form-panel {
+        max-width: 40%;
+    }
+    .hero__form-placeholder > input:nth-child(5) {
+        width: 100%;
+    }
+    .hero__form .dropbtn {
+        max-width: 100% !important;
+        width: 440px !important;
+    }
+    .btn-add-resume + label {
+        padding: 15px;
+        max-width: 170px;
+        width: 100%;
+    }
+    .hero__form-about-send {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: fit-content;
+        max-width: 440px;
+        gap: 20px;
+    }
+    .hero__form .min-button {
+        max-height: 57px;
+        max-width: 250px;
+    }
+    .another-vac {
+        margin: 20px;
+    }
+} 
+
+@media screen and (max-width: 1140px) {
+    .hero__coach-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .coach-details {
+        font-size: 15px;
+    }
+    .header__nav-link {
+        width: 150px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .cover__title {
+        margin-top: 30px;
+    }
+    .cover__buttons .min-button:last-child {
+        margin: 22px 0 0 0;
+    }
+    .cover__buttons {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .hero__signup-placeholders {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__signup-input:first-child {
+        margin: 0 0 20px 0;
+    }
+    .hero__signup .container {
+        justify-content: center;
+    }
+    .footer__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .footer__nav-list {
+        grid-row: 1 / 3;
+        grid-column-start: 1;
+    }
+    .footer__logo {
+        grid-row-start: 1;
+        grid-column-start: 3;
+        align-self: end;
+    }
+    .footer__contacts {
+        height: fit-content;
+        grid-column: 2 / 4;
+        grid-row-start: 1;
+    }
+    .footer__socials {
+        justify-self: end;
+        align-self: end;
+        height: fit-content;
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+    .footer__roots {
+        margin-top: 50px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    .footer__dev-name {
+        max-width: 130px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .hero__contants-element:last-child {
+        margin-bottom: 11px;
+    }
+    .hero__contants-elements-left {
+        flex-direction: row;
+    }
+    .map {
+        width: 100%;
+    }
+    .text-span-20, .btn-to-club {
+        font-size: 13px !important;
+    }
+    .btn-to-club {
+        border-radius: 15px;
+        width: 135px;
+        padding: 12px;
+    }
+    .hero_contacts-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_contacts-block:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+    .hero__contacts-content {
+        width: 100%;
+        border-left: 5px solid #FFBB37;
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .cover {
+        background-image: url(../image/cover_man.png); 
+    }
+    .cover__container {
+        padding: 30px 20px;
+    }
+    .hero__advantages-element {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .hero__coaches-filters {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+    .hero__coaches .filter-dir {
+        grid-row-start: 2;
+    }
+    .hero__schedule-reset {
+        grid-row-start: 3;
+    }
+} 
+
+@media screen and (max-width: 907px) {
+    .header__nav-link {
+        width: 125px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    swiper-slide img, swiper-container, .coach-item {
+        border-radius: 15px;  
+    } 
+    .hero__schedule-start:hover {
+        scale: 1;
+    }
+    .dropbtn {
+        padding: 19px;
+        background-image: url('../image/triangle-min-orange.svg');
+    }
+    .hero__schedule-filters .dropbtn {
+        padding: 0;
+    }
+    .dropbtn.active {
+        background-image: url('../image/triangle-min-orange-rev.svg');
+    }
+    .hero__coaches .dropbtn,
+    .hero__schedule .dropbtn {
+        background-image: url('../image/triangle-min.svg');
+    }
+    .hero__coaches .dropbtn.active,
+    .hero__schedule .dropbtn.active {
+        background-image: url('../image/triangle-min-rev.svg');
+    }
+    .hero__coaches-filters {
+        gap: 10px;
+        padding-top: 43px;
+        margin: 0 auto;
+    }
+    .hero__coach-list {
+        margin-top: 43px;
+    }
+    .hero__schedule-reset {
+        width: 225px;
+        height: 43px;
+    }
+    .hero__coaches .dropbtn,
+    .hero__schedule .dropbtn,
+    .hero__schedule-reset {
+        min-height: 43px !important;
+        width: 200px;
+        max-width: 200px
+    }
+    .hero__coaches .dropbtn, .reset__text, .drop-elem,
+    .hero__schedule .dropbtn {
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    .hero__coaches .dropbtn,
+    .hero__schedule .dropbtn {
+        padding: 0 20px;
+        background-position: calc(100% - 20px) center;
+    }
+    .reset__pic {
+        width: 15px;
+        height: 15px;
+    }
+    .footer__content li, 
+    .footer__content a,
+    .footer__roots {
+        font-size: 17px;
+    }
+    .footer__dev-name {
+        font-size: 13px;
+    }
+    .footer__pic {
+        width: 84px;
+        height: 64px;
+    }
+    .footer__logo {
+        justify-self: end;
+    }
+    .hero__offer-content {
+        padding-top: 28px !important;
+    }
+    .cover {
+        height: 875px;
+    }
+    .cover__title {
+        margin-top: 20px !important;
+    }
+    .hero__advantages-element {
+        margin-top: 26px !important;
+    }
+    .hero__filials-info {
+        padding-top: 22px;;
+    }
+    .hero__filials-items {
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .y-map {
+        margin: 0 auto;
+        height: 400px !important;
+    }
+    .container {
+        padding: 43px;
+    } 
+    .btn-add-resume + label {
+        max-height: 39px;
+        min-height: 39px;
+    }
+    .hero__form-about-send {
+        gap: 10px;
+    }
+    .hero__form .min-button {
+        max-height: 39px;
+    }
+    .hero__form {
+        padding-bottom: 15px;
+    }
+    .hero__form-placeholder {
+        padding: 0 10px;
+        gap: 10px;
+    }
+    .hero__form-placeholder > input, 
+    textarea,
+    .hero__form .dropbtn {
+        padding: 10px 17px !important;
+    }
+
+    .hero__form .main-title-centered {
+        padding: 26px 0;
+    }
+    .hero__vacation-item {
+        padding-top: 34px;
+    }
+    .hero__vacation-content li {
+        line-height: 30px;
+    }
+    .hero__form-panel {
+        max-width: 344px;
+    }
+    .hero__partnership-question {
+        margin-top: 43px; 
+    }
+    .hero__partnership-image {
+        height: 75px;
+        width: 75px;
+    }
+    .text__from15-to20 {
+        line-height: 35px;
+    }
+    .black-line {
+        display: none;
+    }
+    .hero__partnership-content {
+        padding-top: 43px;
+    }
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .hero__partnership-list:first-child {
+        margin: 0;
+    }
+    .hero__partnership-images {
+        padding: 0 !important;
+    }
+    .border-r-b {
+        background-position: right;
+    }
+    .hero__schedule-start:hover {
+        scale: 1;
+    }
+    .hero__vacations-item {
+        max-width: 344px;
+        padding: 30px;
+    }
+    .hero__vacations-item h2 {
+        margin-bottom: 30px;
+        font-size: 20px !important;
+    }
+    .text__p-vac-item-20 {
+        line-height: 25px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .hero__vacations-item u {
+        font-size: 17px;
+    }
+    .schedule-bottom-image img {
+        width: 60px;
+        height: 60px;
+    }
+    .schedule-bottom-images {
+        flex-direction: column;
+    }
+    .schedule-bottom-image:last-child p {
+        margin: 0;   
+    }
+    .hero__schedule-end {
+        max-width: 200px;
+    }
+    .hero__schedule-items {
+        gap: 10px;
+    }
+    .hero__schedule-item p, .hero__schedule-item h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .schedule-top-block p {
+        padding: 5px !important;
+        margin: 0;
+    }
+    .hero__schedule-start {
+        width: 167px !important;
+    }
+    .schedule-bottom-block {
+        border-radius: 0px 0px 10px 0px !important;
+        padding: 10px !important;
+    }
+    .trl-img {
+        width: 24px;
+        height: 12px;
+    }
+    .hero__schedule-filters .dropbtn {
+        padding-left: 14px;
+        font-size: 15px;
+        width: 200px;
+        height: 43px;
+        background-position: calc(100% - 14px) center;
+        border-radius: 15px;
+        background-image: url(../image/triangle-min.svg);
+    }
+    .hero__schedule-filters .dropbtn.active {
+        background-image: url(../image/triangle-min-rev.svg);
+    }
+    .hero__schedule-date-item {
+        width: 57px;
+        height: 24px;
+        font-size: 15px;
+        font-family: 'h_regular';
+    }
+    .coach-item:nth-child(even) {
+        justify-self: start;
+    }
+    .coach-details {
+        font-size: 13px;
+    }
+    .coach-item:nth-child(odd) {
+        justify-self: end;
+    }
+    .coach-item {
+        max-height: 250px !important;
+        max-width: 250px !important;
+    }
+    .coach-fio {
+        max-height: 35px;
+        font-size: 15px;
+    }
+    .grey-signboard, 
+    .grey-signboard span {
+        font-size: 20px !important; 
+    }
+    .hero__offer-element {
+        width: 90%;
+    }
+    .hero__offer-title {
+        font-size: 25px !important;
+    }
+    .hero__offer-about {
+        font-size: 17px !important;
+        margin-top: 13px !important;
+    }
+    .hero__offer-btn {
+        font-size: 19px !important;
+    }
+    .hero__coaches .reset__text {
+        padding: 0 20px;
+    }
+    .hero__schedule .reset__text {
+        padding: 0 20px;
+    }
+    header .container {
+        display: none;
+    }
+    .burger__modal {
+        display: block;
+    }
+    .header__768 {
+        display: grid;
+    }
+    .min-button {
+        width: 190px !important;
+        font-size: 13px;
+    }
+    .min-button:last-child {
+        width: 235px !important;
+    }
+    .cover__image-group {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .hero__advantages-content {
+        justify-content: space-around !important;
+    }
+    .hero__advantages-element {
+        width: 170px !important;
+    }
+    .hero__advantages-image {
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero__offer-element {
+        grid-template-rows: 85px 1fr 65px;
+    }
+    .hero__present-img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .hero__offer-element {
+        max-height: 550px;
+    }
+    .hero__present-icon {
+        padding: 20px !important;
+    }
+    .hero__offer-btn {
+        max-width: 250px !important;
+        border-radius: 15px !important;
+        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .modal__main-grid .dropbtn {
+        height: 43px;
+        padding: 13px;
+        font-size: 14px;
+    }
+    .modal__main-grid {
+        grid-template-columns: 1fr;
+    }
+    .modal__main-grid input {
+        grid-column: 1 / 1;
+    }
+    .modal__up .text__h4-20 {
+        font-size: 17px;
+    }
+    .modal__li, .modal__main p {
+        font-size: 15px;
+    }
+    .modal__main input, 
+    .hero__coaches input {
+        height: 43px;
+        padding: 13px;
+        font-size: 14px;
+    }
+    .modal__up h4 {
+        grid-column-start: 1;
+        justify-self: start;
+    }
+    .modal__btn {
+        height: 40px;
+        padding: 10px 37px;
+    }
+    .modal__inputs {
+        grid-template-columns: 1fr;
+    }
+    .modal__inputs input {
+        width: 100% !important;
+    }
+    .fio {
+        grid-column: 1 / 1;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .hero__advantages .hero__min-text,
+    .hero__achievements .hero__min-text {
+        font-size: 14px !important;
+    }
+    .cover__img-sale {
+        margin: 0;
+        width: 171px !important;
+        height: 163px !important;
+    }
+    .cover {
+        height: 500px;
+    }
+    .min-button {
+        max-height: 31px;
+    }
+    .y-map {
+        height: 200px !important;
+    }
+    .coach-item {
+        max-height: 167px !important;
+        max-width: 150px !important;
+    }
+    .hero__signup {
+        height: 287px !important;
+    }
+    .hero__signup-input {
+        width: 213px;
+        font-size: 13px;
+    }
+    .hero__signup-title {
+        font-size: 20px;    
+        margin: 0px;
+    }
+    .hero__signup .min-button {
+        margin-top: 26px;
+        width: 157px !important;
+    }
+    .hero__signup-placeholders {
+        padding-top: 26px;
+    }
+    .hero__offer-element {
+        max-height: 450px;
+    }
+    .hero__offer-title {
+        font-size: 18px !important;
+    }
+    .hero__offer-about {
+        font-size: 15px !important;
+    }
+    .hero__offer-btn {
+        font-size: 14px !important;
+    }
+    .footer__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .footer__logo {
+        margin-top: 40px;
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+    .footer__socials {
+        justify-self: center;
+        grid-column: 2 / 4;
+        align-self: end;
+    }
+    .footer__roots {
+        grid-column: 2 / 4;
+        align-self: center;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero__partnership-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .hero__form-panel {
+        width: 80%;
+    }
+    .footer__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+        justify-items: start;
+    }
+    .footer__contacts,  
+    .footer__roots, 
+    .footer__logo,
+    .footer__socials {
+        margin-top: 40px;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        justify-self: start;
+    }
+    .footer__logo {
+        grid-row-start: 4;
+    }
+    .footer__socials {
+        grid-row-start: 3;
+    }
+    .footer__roots {
+        grid-row-start: 5;
+    }
+}

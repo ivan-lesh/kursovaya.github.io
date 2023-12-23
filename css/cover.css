@@ -1,0 +1,68 @@
+.cover__container {
+    padding: 0 140px;
+}
+
+.cover {
+    background-image: url(../image/man.png);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    from {
+        background-position: left;
+    } to {
+        background-position: right;
+    }
+}
+
+.cover__buttons {
+    margin-top: 80px;
+}
+
+.cover__image-group {
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.cover__social-networks {
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.cover__title span {
+    color: yellow;
+}
+
+.cover__descr {
+    font-size: calc(11px + 7 * (100vw - 320px) / 880);
+    width: 34ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: printed-text 1.5s steps(300),
+    flashin-border .75s step-start infinite;
+    margin-top: 5px;
+}
+
+.cover__img-sale {
+    margin-top: 80px;
+    width: 236px;
+    height: 216px;
+}
+
+.cover__title, .cover__title span{
+    margin-top: 80px;
+    font-size: calc(20px + 24 * (100vw - 320px) / 880);
+    width:21ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: printed-text 1s steps(300),
+        flashin-border .75s step-start infinite;
+}

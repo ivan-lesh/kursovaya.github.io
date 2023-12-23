@@ -1,0 +1,11 @@
+.train-with-best {
+    text-align: center;
+    background: #FFBB37;
+    color: white;
+    padding: 15px;
+}
+
+.train-with-best span {
+    font-family: 'h_regular';
+    font-size: calc(20px + 24 * (100vw - 320px) / 880);
+}
