@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__768">
+            <a class="header__logotype" href="index.html">
+                <img class="header__logo" src="image/fs-logo-black.svg" alt="logo">
+            </a>
+            <img id="b__open" onclick="openModal('burger')" class="burger__open" src="image/burger-open.svg" alt="close">
+        </div>
+        <div id="burger" class="burger__modal modal-elem">
+            <div class="burger__top">
+                <a class="header__logotype" href="index.html">
+                    <img class="header__logo" src="image/fs-logo-white.svg" alt="logo">
+                </a>
+                <img id="b__close" onclick="closeModal('burger')" class="burger__close" src="image/close.svg" alt="close">
+            </div>
+            <div class="burger__main">
+                <span class="burger__info">London of the Great Britain</span>
+                <ul class="navigation">
+                    <li class="nav-item">
+                        <a href="index3.html">Расписание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index2.html">Абонементы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index1.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="vacations.html">Вакансии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="partnership.html">Сотрудничество</a>
+                    </li>
+                </ul>
+                <span class="burger__info">8-800-555-35-35</span>
+                <div class="burger__img-group">
+                    <img src="image/tg.svg" alt="tg">
+                    <img src="image/vk.svg" alt="vk">
+                    <img src="image/inst.svg" alt="inst">
+                </div>
+                <span class="burger__info">
+                    Вся информация, публикуемая на сайте, носит исключительно 
+                    информационный характер, и ни при каких условиях не может
+                    являться публичной офертой
+                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="container">
+            <nav class="header__nav-left">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index3.html" class="header__nav-link">расписание</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="index2.html" class="header__nav-link">абонементы</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="index1.html" class="header__nav-link">о нас</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__logo" href="index.html">
+                <img class="logo" src="image/fs-logo-black.svg" alt="logo">
+            </a>
+            <nav class="header__nav-right">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="vacations.html" class="header__nav-link">вакансии</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contacts.html" class="header__nav-link">контакты</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="partnership.html" class="header__nav-link">сотрудничество</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <section class="hero__schedule">
+        <div id="cont" class="container">
+            <h1 class="hero__title">
+                РАСПИСАНИЕ
+            </h1>
+            <p class="hero__schedule-time">
+                Часы работы клубов: будни - с 07:00 до 00:00, выходные - с 09:00 до 22:00.
+            </p>
+            <h1 class="hero__schedule-title text__h1-32">
+                Выберите параметры
+            </h1>
+            <div class="hero__schedule-filters">
+                <div class="filter-adress">
+                    <select class="dropbtn">
+                      <option class="drop-elem">Клуб</option>
+                      <option class="drop-elem">Ветеранов</option>
+                      <option class="drop-elem">Народная улица</option>
+                      <option class="drop-elem">Ново-рыбинская</option>
+                      <option class="drop-elem">Большевиков</option>
+                    </select>
+                </div>
+                <div class="filter-dir">
+                    <select class="dropbtn">
+                      <option class="drop-elem">Направление</option>
+                      <option class="drop-elem">Бодибилдинг</option>
+                      <option class="drop-elem">Водные программы</option>
+                      <option class="drop-elem">Единоборства</option>
+                      <option class="drop-elem">Занятия для детей</option>
+                    </select>
+                </div>
+                <div class="filter-age">
+                    <select class="dropbtn">
+                      <option class="drop-elem">Возраст</option>
+                      <option class="drop-elem">7-9 лет</option>
+                      <option class="drop-elem">10-13 лет</option>
+                      <option class="drop-elem">Молодёжь 14-18 лет</option>
+                      <option class="drop-elem">Взрослые</option>
+                    </select>
+                </div>
+                <div class="hero__schedule-reset">
+                    <a href="index3.html" class="reset__text">
+                        Сбросить фильтры
+                        <img src="image/reset.svg" alt="reset" class="reset__pic">
+                    </a>
+                </div>
+            </div>
+            <div class="hero__schedule-date">
+                <h1 class="hero__schedule-date-title text__h1-32">
+                    Дата занятия
+                </h1>
+                <div class="hero__schedule-date-items">
+                    <button class="hero__schedule-date-item">18 ПН</button>
+                    <button class="hero__schedule-date-item">19 ВТ</button>
+                    <button class="hero__schedule-date-item">20 СР</button>
+                    <button class="hero__schedule-date-item">21 ЧТ</button>
+                    <button class="hero__schedule-date-item">22 ПТ</button>
+                    <button class="hero__schedule-date-item">23 СБ</button>
+                    <button class="hero__schedule-date-item">24 ВС</button>
+                </div>
+            </div>
+            <div class="hero__schedule-items">
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__schedule-item">
+                    <div class="hero__schedule-start">
+                        <div class="schedule-top-block">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block">
+                            <h3 class="text__h3-24">Функциональный тренинг</h3>
+                            <p class="schedule-bottom-block-old">14 - 18 лет</p>
+                            <p class="schedule-bottom-block-gym">Тренажёрный зал</p>
+                            <div class="triangle sched-triangle">
+                                <img class="trl-img" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__schedule-end">
+                        <div class="schedule-top-block border-t-r">
+                            <p class="text__p-24">12:00 | 50 мин</p>
+                        </div>
+                        <div class="schedule-bottom-block border-r-b">
+                            <p class="schedule-bottom-block-gym">
+                                Занятия в тренажерном зале позволят сформировать композицию тела 
+                                (набор мышечной массы, жиросжигание, рельеф основных мышечных групп).
+                                Занятия проходят в мини-группах под руководством опытного тренера.
+                            </p>
+                            <div class="schedule-bottom-images">
+                                <div class="schedule-bottom-image">
+                                    <img src="image/mini-dwayne.png" alt="">
+                                    <p>Dwayne Johnson</p>
+                                </div>
+                                <div class="schedule-bottom-image">
+                                    <img src="image/arnold.jpg" alt="">
+                                    <p>Arnold Schwarz</p>
+                                </div>
+                            </div>
+                            <div class="triangle">
+                                <img class="trl-img-close" style="rotate: 180deg;" src="image/triangle.svg" width="35";
+                                height="13"; alt="triangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img class="footer__logo-pic" src="image/fs-logo-white.svg" alt="fs">    
+                    <span class="footer__dev-name">designed by Javalets</span>
+                </div>
+                <ul class="footer_nav-list">
+                    <li class="footer__nav-item">
+                        Навигация
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="index3.html">расписание</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="index2.html">абонементы</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="index1.html">о нас</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="contacts.html">обратная связь</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="vacations.html">вакансии</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="partnership.html">сотрудничество</a>
+                    </li>
+                </ul>
+                <ul class="footer__contacts">
+                    <li class="footer__cont-item">
+                        Контакты
+                    </li>
+                    <li class="footer__cont-item">
+                        8 800 555 35 35
+                    </li>
+                    <li class="footer__cont-item">
+                        loremipsum@yahoo.com
+                    </li>      
+                </ul>
+                <ul class="footer__socials">
+                    <li class="footer__soc-item">
+                        Cоц. сети
+                    </li>
+                    <li class="footer__soc-item">
+                        <a href="#">
+                            <img src="image/tg.svg" alt="" class="social-pic">
+                        </a>
+                        <a href="#">
+                            <img src="image/vk.svg" alt="" class="social-pic">
+                        </a>
+                        <a href="#">
+                            <img src="image/inst.svg" alt="" class="social-pic">
+                        </a>
+                    </li>
+                </ul>
+                <span class="footer__roots">© Все права защищены</span>
+            </div>
+        </div>
+    </footer>
+    <div onclick="closeBlure()" class="blure"></div>
+    <script src="js/filter-choose.js"></script>
+    <script src="js/detailed.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

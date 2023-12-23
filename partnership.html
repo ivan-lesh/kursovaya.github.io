@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__768">
+            <a class="header__logotype" href="index.html">
+                <img class="header__logo" src="image/fs-logo-black.svg" alt="logo">
+            </a>
+            <img id="b__open" onclick="openModal('burger')" class="burger__open" src="image/burger-open.svg" alt="close">
+        </div>
+        <div id="burger" class="burger__modal modal-elem">
+            <div class="burger__top">
+                <a class="header__logotype" href="index.html">
+                    <img class="header__logo" src="image/fs-logo-white.svg" alt="logo">
+                </a>
+                <img id="b__close" onclick="closeModal('burger')" class="burger__close" src="image/close.svg" alt="close">
+            </div>
+            <div class="burger__main">
+                <span class="burger__info">London of the Great Britain</span>
+                <ul class="navigation">
+                    <li class="nav-item">
+                        <a href="index3.html">Расписание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index2.html">Абонементы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index1.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="vacations.html">Вакансии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="partnership.html">Сотрудничество</a>
+                    </li>
+                </ul>
+                <span class="burger__info">8-800-555-35-35</span>
+                <div class="burger__img-group">
+                    <img src="image/tg.svg" alt="tg">
+                    <img src="image/vk.svg" alt="vk">
+                    <img src="image/inst.svg" alt="inst">
+                </div>
+                <span class="burger__info">
+                    Вся информация, публикуемая на сайте, носит исключительно 
+                    информационный характер, и ни при каких условиях не может
+                    являться публичной офертой
+                </span>
+            </div>
+
+            
+        </div>
+
+        <div class="container">
+            <nav class="header__nav-left">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index3.html" class="header__nav-link">расписание</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="index2.html" class="header__nav-link">абонементы</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="index1.html" class="header__nav-link">о нас</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__logo" href="index.html">
+                <img class="logo" src="image/fs-logo-black.svg" alt="logo">
+            </a>
+            <nav class="header__nav-right">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="vacations.html" class="header__nav-link">вакансии</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contacts.html" class="header__nav-link">контакты</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="partnership.html" class="header__nav-link">сотрудничество</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <section class="hero__partnership">
+            <div class="container">
+                <h1 class="hero__title">
+                    СОТРУДНИЧЕСТВО
+                </h1>
+                <div class="hero__partnership-welcome">
+                    <p class="text__from15-to20">
+                        <b class="bold-text">Добро пожаловать</b> на страницу сотрудничества с нашим 
+                        фитнес-центром FITNESS SHAPE! Мы всегда открыты к 
+                        партнерству и сотрудничеству с организациями, 
+                        индивидуалами и предпринимателями, которые разделяют 
+                        наши ценности и стремление к здоровому образу жизни.
+                    </p>
+                    <img src="image/partner-team.png" alt="img" class="hero__partnership-image">
+                </div>
+                <div class="hero__partnership-question">
+                    <h3 class="hero__partnership-title">Почему с нами стоит сотрудничать?</h3>
+                    <div class="black-line"></div>
+                </div>
+                <div class="hero__partnership-content reverse">
+                    <div class="hero__partnership-images">
+                        <img src="image/partner-star.png" alt="img" class="hero__partnership-image">
+                        <img src="image/partner-kachok.png" alt="img" class="hero__partnership-image">
+                    </div>
+                    <ul class="hero__partnership-list">
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Профессионализм и опыт:</b> Наша команда состоит из квалифицированных тренеров и 
+                            экспертов, обладающих многолетним опытом в фитнесе и здоровом образе жизни. 
+                        </li>
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Современное оборудование:</b> Наш фитнес-центр оснащен современным оборудованием, 
+                            которое помогает нашим клиентам достичь своих фитнес-целей. 
+                        </li>
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Разнообразные программы:</b> Мы предлагаем разнообразные фитнес-программы 
+                            и занятия, чтобы удовлетворить потребности разных аудиторий. 
+                        </li>
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Индивидуальный подход:</b> Мы подходим к каждому клиенту индивидуально, помогая 
+                            им разработать оптимальный план тренировок и диеты.
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero__partnership-question">
+                    <h3 class="hero__partnership-title">Как мы можем сотрудничать?</h3>
+                    <div class="black-line"></div>
+                </div>
+                <div class="hero__partnership-content">
+                    <ul class="hero__partnership-list">
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Корпоративное партнёрство:</b> Предлагаем корпоративным клиентам специальные 
+                            условия для улучшения здоровья и физической активности среди сотрудников. 
+                        </li>
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Индивидуальные тренировки:</b> Мы работаем с личными тренерами, фитнес-коучами и 
+                            нутрициологами для обеспечения наших клиентов лучшей заботой о здоровье.
+                        </li>
+                        <li class="text__from15-to20">
+                            <b class="bold-text">Совместные мероприятия:</b> Мы готовы сотрудничать с организаторами мероприятий, 
+                            проводя совместные фитнес-мероприятия, мастер-классы и семинары.
+                        </li>
+                    </ul>
+                    <div class="hero__partnership-images">
+                        <img src="image/partner-gym.png" alt="img" class="hero__partnership-image">
+                        <img src="image/partner-teacher.png" alt="img" class="hero__partnership-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grey-signboard">
+            ПО ВОПРОСАМ <span>СОТРУДНИЧЕСТВА</span> ЗВОНИТЕ 8-800-555-35-35
+        </section>
+    </section>
+        <footer>
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img class="footer__logo-pic" src="image/fs-logo-white.svg" alt="fs">    
+                        <span class="footer__dev-name">designed by Javalets</span>
+                    </div>
+                    <ul class="footer_nav-list">
+                        <li class="footer__nav-item">
+                            Навигация
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="index3.html">расписание</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="index2.html">абонементы</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="index1.html">о нас</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="contacts.html">обратная связь</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="vacations.html">вакансии</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="partnership.html">сотрудничество</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__contacts">
+                        <li class="footer__cont-item">
+                            Контакты
+                        </li>
+                        <li class="footer__cont-item">
+                            8 800 555 35 35
+                        </li>
+                        <li class="footer__cont-item">
+                            loremipsum@yahoo.com
+                        </li>      
+                    </ul>
+                    <ul class="footer__socials">
+                        <li class="footer__soc-item">
+                            Cоц. сети
+                        </li>
+                        <li class="footer__soc-item">
+                            <a href="#">
+                                <img src="image/tg.svg" alt="" class="social-pic">
+                            </a>
+                            <a href="#">
+                                <img src="image/vk.svg" alt="" class="social-pic">
+                            </a>
+                            <a href="#">
+                                <img src="image/inst.svg" alt="" class="social-pic">
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="footer__roots">© Все права защищены</span>
+                </div>
+            </div>
+        </footer>
+    <div onclick="closeBlure()" class="blure"></div>
+    <script src="js/modal.js"></script>
+</body>
+</html>
